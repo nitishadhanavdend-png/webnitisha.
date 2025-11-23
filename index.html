@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRONPULSE | Nitisha Dhanavde - CrossFit Athlete & Problem Solver</title>
+    <meta name="description" content="CrossFit athlete, runner, and critical thinker pushing limits mentally, physically, and creatively.">
+    <meta name="author" content="Nitisha Dhanavde">
+    
+    <meta property="og:title" content="IRONPULSE | Nitisha Dhanavde - CrossFit Athlete & Problem Solver">
+    <meta property="og:description" content="CrossFit athlete, runner, and critical thinker pushing limits mentally, physically, and creatively.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Lovable">
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navigation" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo text-gradient">IRONPULSE</div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-links desktop-nav">
+                    <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                    <a href="#gallery" class="nav-link" data-section="gallery">Gallery</a>
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#hero" class="mobile-nav-link active" data-section="hero">Home</a>
+            <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+            <a href="#gallery" class="mobile-nav-link" data-section="gallery">Gallery</a>
+            <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <img src="profile.jpg" alt="Nitisha Dhanavde" class="hero-image">
+            <h1 class="hero-title">
+                Hi, I'm <span class="text-gradient">Nitisha Dhanavde</span>
+            </h1>
+            <p class="hero-subtitle">
+                CrossFit Athlete, Runner, Critical Thinking and Problem Solving
+            </p>
+            <p class="hero-description">
+                Pushing limits mentally, physically, and creatively.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('about')">Explore My Work</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">Get in Touch</button>
+            </div>
+            <button class="scroll-down" onclick="scrollToSection('about')" aria-label="Scroll down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+                <p class="section-subtitle">
+                    I'm a passionate web developer and computer engineering student with a love for creating elegant solutions to complex problems.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-story">
+                    <h3 class="about-heading">My Story</h3>
+                    <p class="about-text">
+                        Hi! I'm Nitisha Dhanavde, a passionate learner with an exceptional love for mathematics and problem-solving. Numbers, logic, and analytical thinking come naturally to me — solving complex problems doesn't feel like work, it feels like play. I'm driven by curiosity and the excitement of finding solutions, and I take pride in pushing my mind to think beyond the obvious.
+                    </p>
+                    <p class="about-text">
+                        Outside academics, I'm a dedicated CrossFitter and runner, constantly chasing progress, strength, and personal records. If I'm not studying, you will most definitely find me training — whether it's lifting, running, conditioning, or taking on high-intensity challenges like HYROX. Fitness isn't just a hobby for me, it's a discipline and lifestyle that shapes who I am.
+                    </p>
+                    <p class="about-text">
+                        I'm also a huge food enthusiast who loves exploring new cuisines, flavors, and food adventures from around the world — from everyday comfort meals to experimental dishes that most people wouldn't dare to try. Whether it's travel-inspired food like my time in Thailand or something completely new, I'm always ready for a culinary experience.
+                    </p>
+                    <p class="about-text">
+                        When I want to slow down and recharge, I turn to drawing, where creativity flows effortlessly and gives balance to my otherwise intense, goal-driven routine.
+                    </p>
+                    <p class="about-text-bold">
+                        In short, I'm someone who believes in challenging limits — mentally, physically, and creatively.
+                    </p>
+                </div>
+
+                <div class="about-skills-section">
+                    <div class="skills-container">
+                        <h3 class="about-heading">Skills & Expertise</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Git & GitHub</span>
+                            <span class="skill-tag">Judo & Martial Arts</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Research Skills</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Strategic Thinker</span>
+                            <span class="skill-tag">Professional CrossFitter</span>
+                            <span class="skill-tag">Weightlifting</span>
+                        </div>
+                    </div>
+
+                    <div class="achievements-container">
+                        <h3 class="about-heading">Achievements</h3>
+                        <div class="achievement-card">
+                            <p class="achievement-title">Academic Excellence</p>
+                            <p class="achievement-desc">Consistent high performer in Computer Engineering</p>
+                        </div>
+                        <div class="achievement-card">
+                            <p class="achievement-title">Project Leadership</p>
+                            <p class="achievement-desc">Led multiple successful web development projects</p>
+                        </div>
+                        <div class="achievement-card">
+                            <p class="achievement-title">Hackathon Participant</p>
+                            <p class="achievement-desc">Active participant in coding competitions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <svg class="interest-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                    <h3 class="interest-title">CrossFit & Fitness</h3>
+                    <p class="interest-desc">Professional athlete pushing physical limits through high-intensity training</p>
+                </div>
+                <div class="interest-card">
+                    <svg class="interest-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                    <h3 class="interest-title">Problem Solving</h3>
+                    <p class="interest-desc">Mathematical thinking and analytical approaches to complex challenges</p>
+                </div>
+                <div class="interest-card">
+                    <svg class="interest-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                    </svg>
+                    <h3 class="interest-title">Creative Arts</h3>
+                    <p class="interest-desc">Drawing and creative expression as a way to recharge and find balance</p>
+                </div>
+                <div class="interest-card">
+                    <svg class="interest-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                    <h3 class="interest-title">Food Explorer</h3>
+                    <p class="interest-desc">Passionate about discovering new cuisines and culinary adventures</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="text-gradient">Gallery</span></h2>
+                <p class="section-subtitle">
+                    A showcase of my recent projects, designs, and creative work
+                </p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fitness">Fitness & Sports</button>
+                <button class="filter-btn" data-filter="achievement">Achievements</button>
+                <button class="filter-btn" data-filter="project">Projects</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+                <p class="section-subtitle">
+                    Have a question or want to work together? Feel free to reach out!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info-section">
+                    <div class="contact-info-container">
+                        <h3 class="contact-heading">Contact Information</h3>
+                        <div class="contact-info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:nitisha.dhanavde.nd@gmail.com" class="contact-link">nitisha.dhanavde.nd@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <a href="tel:+917045563991" class="contact-link">+91 7045563991</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <p class="contact-text">Mumbai, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-container">
+                        <h3 class="contact-heading">Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/nitisha-dhanavde" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/nitishaaa_28" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+                        <span class="error-message" data-error="name"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+                        <span class="error-message" data-error="email"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" class="form-input" required>
+                        <span class="error-message" data-error="subject"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" class="form-textarea" rows="6" required></textarea>
+                        <span class="error-message" data-error="message"></span>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    Made with <span class="heart">❤</span> by Nitisha Dhanavde
+                </p>
+                <p class="footer-copyright">
+                    © <span id="year"></span> All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
